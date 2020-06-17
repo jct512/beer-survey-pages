@@ -1,8 +1,8 @@
 window.onload = function() {
-  document.getElementById('main-content').innerHTML = 'Thank you for your participation.'
+  document.getElementById('main-content').innerHTML = 'Loading... \n'+'\n Thank you for your participation.'
 }
 
 setTimeout(function(){
-   var arr=['http://www.baidu.com','http://www.google.com','http://www.taobao.com'];
+   var arr=['https://www.reddit.com/','http://www.google.com','https://www.ku.dk/english/','https://github.com/','https://www.netflix.com/','https://www.nemlig.com/'];
   window.location.href=arr[parseInt(Math.random()*arr.length)];
   },100);
